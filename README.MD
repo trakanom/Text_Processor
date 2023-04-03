@@ -13,9 +13,10 @@ Text Processor is a simple Python-based web application that processes text inpu
 
 To set up the environment and install the required packages, run the following command:
 
-```bash
-pip install nltk flask matplotlib
 ```
+py setup_and_run.py
+```
+
 
 ## Usage
 
@@ -36,6 +37,7 @@ pip install nltk flask matplotlib
 - NLTK
 - Flask
 - Matplotlib
+- Plotly
 
 ## License
 
