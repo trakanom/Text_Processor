@@ -1,0 +1,6 @@
+plotly
+pillow
+wheel
+nltk
+flask
+matplotlib
