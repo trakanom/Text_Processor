@@ -13,17 +13,17 @@ Text Processor is a simple Python-based web application that processes text inpu
 
 To set up the environment and install the required packages, run the following command:
 
-\`\`\`bash
+```bash
 pip install nltk flask matplotlib
-\`\`\`
+```
 
 ## Usage
 
 1. Run the `app.py` file:
 
-   \`\`\`bash
+   ```bash
    python app.py
-   \`\`\`
+   ```
 
 2. Open your web browser and navigate to `http://localhost:5000`.
 
