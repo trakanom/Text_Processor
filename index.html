@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Processor</title>
+</head>
+
+<body>
+    <h1>Text Processor</h1>
+    <form method="post">
+        <textarea name="text" rows="10" cols="50" placeholder="Enter your text here"></textarea>
+        <br>
+        <input type="checkbox" name="histogram" id="histogram">
+        <label for="histogram">Generate Histogram</label>
+        <br>
+        <input type="submit" value="Process Text">
+    </form>
+    {% if text %}
+    <h2>Processed Text</h2>
+    <p>{{ text }}</p>
+    {% endif %}
+    {% if hist %}
+    <h2>Histogram</h2>
+    <img src="/static/histogram.png" alt="Histogram">
+    {% endif %}
